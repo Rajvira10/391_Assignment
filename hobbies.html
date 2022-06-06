@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>About ME</title>
+  </head>
+  <body>
+    <div class="bg about">
+      <div class="nav__simplebar">
+        <div class="nav__simplebar__image-container">
+          <h2 class="nav__simplebar__header-name">Rajvir Ahmed Shuvo</h2>
+          <img
+            src="images/shuvo.jpg"
+            class="nav__simplebar__profile-pic"
+            alt=""
+          />
+        </div>
+        <nav class="nav__simplebar__navbar">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="hobbies.html" class="focus">HOBBIES</a></li>
+            <li><a href="links.html">FAVORITE LINKS</a></li>
+          </ul>
+        </nav>
+        <div class="nav__simplebar__social-media"></div>
+        <div class="nav__simplebar__footer">
+          <p>2022 © Rajvir Ahmed Shuvo</p>
+          <p>All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="hero__hobbies">
+        <div class="hero__hobbies__header">
+          <h1 style="color: #5cb7db; font-size: 45px">Hobbies.</h1>
+          <hr />
+        </div>
+        <div class="hero__hobbies__body">
+          <ol>
+            <li>
+              Playing <a href="https://store.steampowered.com/">Steam</a> Games.
+            </li>
+            <li>
+              Watching <a href="https://www.Youtube.com">Youtube</a> Videos.
+            </li>
+            <li>
+              Reading
+              <a
+                href="https://www.amazon.com/Books/s?srs=17143709011&rh=n%3A283155"
+                >Books</a
+              >.
+            </li>
+            <li>
+              Browsing through <a href="https://www.facebook.com">Facebook</a>.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+      let text = "The last modified date is " + document.lastModified;
+      document.getElementById("demo2").innerHTML = text;
+      document.getElementById("demo").innerHTML =
+        "The full URL of this page is:" + window.location.href;
+    </script>
+  </body>
+</html>

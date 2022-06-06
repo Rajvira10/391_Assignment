@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>About ME</title>
+  </head>
+  <body>
+    <div class="bg about">
+      <div class="nav__simplebar">
+        <div class="nav__simplebar__image-container">
+          <h2 class="nav__simplebar__header-name">Rajvir Ahmed Shuvo</h2>
+          <img
+            src="images/shuvo.jpg"
+            class="nav__simplebar__profile-pic"
+            alt=""
+          />
+        </div>
+        <nav class="nav__simplebar__navbar">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="links.html" class="focus">FAVORITE LINKS</a></li>
+          </ul>
+        </nav>
+        <div class="nav__simplebar__social-media"></div>
+        <div class="nav__simplebar__footer">
+          <p>2022 © Rajvir Ahmed Shuvo</p>
+          <p>All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="hero__links">
+        <div class="hero__links__header">
+          <h1 style="color: #5cb7db; font-size: 45px">Favorite Links</h1>
+          <hr />
+        </div>
+        <div class="hero__links__body">
+          <table>
+            <tr>
+              <th>Content</th>
+              <th>Link</th>
+            </tr>
+            <tr>
+              <td>Music</td>
+              <td>
+                <a
+                  href="https://www.youtube.com/results?search_query=the+lion+sleeps+tonight"
+                  >https://www.youtube.com/results?search_query=the+lion+sleeps+tonight</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Game</td>
+              <td>
+                <a href="https://store.steampowered.com/app/570/Dota_2/"
+                  >https://store.steampowered.com/app/570/Dota_2/</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Streaming Site</td>
+              <td>
+                <a href="https://www.netflix.com/browse"
+                  >https://www.netflix.com/browse</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Brac University</td>
+              <td>
+                <a href="https://www.bracu.ac.bd/">https://www.bracu.ac.bd/</a>
+              </td>
+            </tr>
+            <tr>
+              <td>391 Piazza Page</td>
+              <td>
+                <a href="https://piazza.com/">https://piazza.com/</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+      let text = "The last modified date is " + document.lastModified;
+      document.getElementById("demo2").innerHTML = text;
+      document.getElementById("demo").innerHTML =
+        "The full URL of this page is:" + window.location.href;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg {
+  display: flex;
+  background-color: #2c2d2f;
+}
+
+.about {
+  color: white;
+}
+
+.nav__simplebar {
+  background-color: #17181b;
+  max-width: 200px;
+  height: 100vh;
+  color: #777;
+  position: relative;
+}
+
+.nav__simplebar__image-container {
+  position: relative;
+}
+
+.nav__simplebar__image-container img {
+  height: 200px;
+  width: 200px;
+}
+.nav__simplebar__header-name {
+  background-color: rgba(0, 163, 225, 0.4);
+  position: absolute;
+  font-size: 18px;
+  top: 165px;
+  color: white;
+  padding: 7px 19px;
+}
+
+.nav__simplebar__navbar li {
+  min-height: 45px;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.nav__simplebar__footer {
+  position: absolute;
+  bottom: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  left: 23px;
+}
+
+.hero__background {
+  background-image: url("images/bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.hero__background h1 {
+  font-size: 60px;
+}
+
+.hero__background h1,
+h2 {
+  font-weight: 500;
+}
+
+u {
+  text-decoration-color: #5cb7db;
+}
+
+.nav__simplebar__navbar a {
+  text-decoration: none;
+  color: #777;
+}
+
+.focus {
+  color: white !important;
+}
+
+.hero__about {
+  padding: 80px 160px;
+  line-height: 2.1;
+}
+
+.hero__about__body {
+  display: flex;
+}
+
+.hero__about__body__description {
+  padding-right: 60px;
+}
+
+.hero__about__body__description p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero__hobbies,
+.hero__links {
+  padding: 80px 160px;
+  line-height: 2.1;
+}
+
+hr {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.hero__hobbies__body a {
+  color: #5cb7db;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table a {
+  color: white;
+  cursor: pointer;
+}
+td,
+th {
+  border: 1px solid #484545;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #484545;
+}
+
+#demo {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  right: 0;
+}
+
+#demo2 {
+  position: fixed;
+  bottom: 15px;
+  color: white;
+  right: 15px;
+}
