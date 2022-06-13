@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Quote Box</title>
+    <title>Hero Converter</title>
   </head>
   <body>
     <div class="bg">
@@ -20,10 +20,12 @@
         </div>
         <nav class="nav__simplebar__navbar">
           <ul>
-            <li><a href="index.html" class="focus">QUOTE BOX</a></li>
-            <li><a href="heroconverter.html">HERO CONVERTER</a></li>
+            <li><a href="index.html">QUOTE BOX</a></li>
+            <li>
+              <a href="heroconverter.html">HERO CONVERTER</a>
+            </li>
             <li><a href="maths.html">MATHS</a></li>
-            <li><a href="magicbox.html">MAGIC BOX</a></li>
+            <li><a href="magicbox.html" class="focus">MAGIC BOX</a></li>
           </ul>
         </nav>
 
@@ -33,18 +35,19 @@
           <p>All Rights Reserved.</p>
         </div>
       </div>
-      <div class="quotebox">
-        <div class="quotebox__inputtext">
-          <p class="quote"></p>
-        </div>
-        <div class="quotebox__buttons">
-          <button class="green"></button>
-          <button class="yellow"></button>
-          <button class="blue"></button>
-          <button class="orange"></button>
+      <div class="magicbox">
+        <textarea cols="30" rows="10"></textarea>
+        <div class="buttons">
+          <button class="clear">Clear It</button>
+          <button class="cap">Capitalize</button>
+          <button class="sort">Sort</button>
+          <button class="reverse">Reverse</button>
+          <button class="strip">Strip Blank</button>
+          <button class="num">Add Numbers</button>
+          <button class="shuffle">Shuffle</button>
         </div>
       </div>
     </div>
-    <script src="quotes.js"></script>
+    <script src="magicbox.js"></script>
   </body>
 </html>
